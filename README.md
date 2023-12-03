@@ -1,6 +1,36 @@
-# Getting Started with Create React App
+## Admin Dashboard React Application
+This React-based Admin Dashboard provides an intuitive interface for administrators to manage users with the following features:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Distinctive Column Titles: Column titles are designed to stand out clearly from the user entries, ensuring easy identification.
+
+Search Functionality: A versatile search bar allows users to filter records based on any property, ensuring efficient data retrieval.
+
+In-Place Editing and Deletion: Users can edit or delete rows directly in the table. Edits and deletions are in-memory, with no persistence expectation.
+
+Pagination with Dynamic Updates: Pagination is implemented with 10 rows per page. Buttons for first page, previous page, next page, and last page dynamically adjust based on search/filter results.
+
+Row Selection and Bulk Deletion: Users can select one or more rows, highlighted with a grayish background. The 'Delete Selected' button enables bulk deletion of the selected rows.
+
+Shortcut Checkbox for Page Selection: A checkbox at the top left serves as a shortcut to select or deselect all rows displayed on the current page, not affecting all records.
+
+User-Friendly Search Box: The search box has a placeholder text starting with "Search," providing clear instructions to users.
+
+Search Trigger Options: The search icon/button has the class search-icon and triggers the search either by clicking or pressing ENTER.
+
+Action Elements with Specific Class Names: Action elements (edit, delete, save) are presented as buttons, each having a specific class name for easy styling and identification.
+
+Navigation Elements with Class Names: Navigation elements (first-page, previous-page, next-page, last-page) are implemented as buttons or divs with class names, ensuring consistency in styling.
+
+In-Place Editing: Clicking the 'Edit' action in a row transforms the row into an editable format, allowing users to make changes directly within the table.
+
+Libraries Used: The project utilizes various libraries for enhanced functionality and design.
+
+Deployment on Netlify: The application is successfully deployed on Netlify, providing a live and accessible environment.
+netlify link:https://tubular-hamster-3ba3d5.netlify.app/
+
+
+![image](https://github.com/sathyark652/User-management-React/assets/117423140/f7f7b46b-31cc-4b7f-914a-f73e167ebf3e)
+
 
 ## Available Scripts
 
